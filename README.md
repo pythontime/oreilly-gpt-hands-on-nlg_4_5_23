@@ -1,31 +1,39 @@
 ![oreilly-logo](images/oreilly.png)
 
-# Hands on Natural Language Generation and GPT
+# Optimizing LLMs with Fine-Tuning and Prompt Engineering
 
 
-This repository contains code for the [O'Reilly Live Online Training for Hands on Natural Language Generation and GPT](https://www.oreilly.com/live-events/hands-on-natural-language-generation-and-gpt/0636920061438/0636920061437/)
+This repository contains code for the [O'Reilly Live Online Training for Optimizing LLMs with Fine-Tuning and Prompt Engineering](https://www.oreilly.com/live-events/optimizing-llms-with-fine-tuning-and-prompt-engineering/0642572011351)
 
-This training will focus on how the GPT family of models are used for NLP tasks including abstractive text summarization and natural language generation. The training will begin with an introduction to necessary concepts including masked self attention, language models, and transformers and then build on those concepts to introduce the GPT architecture. We will then move into how GPT is used for multiple natural language processing tasks with hands-on examples of using pre-trained GPT-2 models as well as fine-tuning these models on custom corpora.
+This advanced course is designed for machine learning engineers and software developers looking to elevate the performance and precision of large language models (LLMs). This course focuses on two critical aspects of LLM optimization: fine-tuning models on specific datasets to tailor their capabilities and mastering the craft of prompt engineering to generate accurate and contextually relevant outputs.
 
-GPT models are some of the most relevant NLP architectures today and it is closely related to other important NLP deep learning models like BERT. Both of these models are derived from the newly invented transformer architecture and represent an inflection point in how machines process language and context.
-
-The Natural Language Processing with Next-Generation Transformer Architectures series of online trainings provides a comprehensive overview of state-of-the-art natural language processing (NLP) models including GPT and BERT which are derived from the modern attention-driven transformer architecture and the applications these models are used to solve today. All of the trainings in the series blend theory and application through the combination of visual mathematical explanations, straightforward applicable Python examples within hands-on Jupyter notebook demos, and comprehensive case studies featuring modern problems solvable by NLP models.
+Over the course of this training, you will explore the intricacies of fine-tuning LLMs like GPT, learning how to adapt pre-trained models to specific tasks and use cases. Additionally, you will delve into the nuances of prompt engineering, discovering how to design and refine prompts that effectively guide LLM behavior. By the end of the course, you will have a deep understanding of how to maximize the potential of LLMs, making them more responsive and valuable in a variety of applications. This course is essential for anyone aiming to push the boundaries of what LLMs can achieve in real-world scenarios.
 
 ### Notebooks
 
-[Introduction to GPT2](notebooks/Introduction_to_GPT.ipynb)
+#### Comparing Fine-tuned OpenAI + BERT
 
-[Ingesting a new corpus](notebooks/Ingesting_New_Corpus.ipynb)
+  - [`bert_app_review.ipynb`](notebooks/bert_app_review.ipynb): Fine-tuning a BERT model for app review classification.
+  - [`openai_app_review_fine_tuning.ipynb`](notebooks/openai_app_review_fine_tuning.ipynb): Fine-tuning OpenAI models for app review classification.
 
-[Multi-task learning with GPT2](notebooks/Multi_Task_Learning.ipynb)
+#### Fine-tuning embeddings
 
-[Dolly Lite Notebook](notebooks/Dolly_Lite.ipynb)
+- [Fine-tuning Embeddings For Rec Engines](https://colab.research.google.com/drive/1JfxyxdGCDjYeO52Bk1JzW4Af94xndTws?usp=sharing): Fine-tuning embedding engines using custom preference data
 
-- Link to original blog: [here](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)
+- [Fine-tuning Embeddings  with Synthetic Data](https://colab.research.google.com/drive/1FOr9hgMEcTa8UJJSuKjoHpohVb-Qz-FJ?usp=sharing) - Using GPT-4o to create synthetic queries for a corpus to increase the quality of open-source embedding models
 
-[Prompt Engineering 101](notebooks/prompt_engineering_101.ipynb)
+#### SAWYER - Training a chat model with RLF
 
-[More Third party fine-tuned GPT models](notebooks/Third_Party_Models.ipynb)
+  - [`SAWYER_LLAMA_SFT.ipynb`](notebooks/SAWYER_LLAMA_SFT.ipynb): Fine-tuning the Llama-3 model to create the SAWYER bot.
+  - [`SAWYER_Reward_Model.ipynb`](notebooks/SAWYER_Reward_Model.ipynb): Training a reward model from human preferences for the SAWYER bot.
+  - [`SAWYER_RLF.ipynb`](notebooks/SAWYER_RLF.ipynb): Applying Reinforcement Learning from Human Feedback (RLHF) to align the SAWYER bot.
+  - [`SAWYER_USE_SAWYER.ipynb`](notebooks/SAWYER_USE_SAWYER.ipynb): Using the SAWYER bot.
+
+#### Distillation + Quantization
+
+  - [`distillation_example_1.ipynb`](notebooks/distillation_example_1.ipynb): Exploring knowledge distillation techniques for transformer models.
+  - [`distillation_example_2.ipynb`](notebooks/distillation_example_2.ipynb): Advanced distillation methods and applications.
+  - [`llama_quantization.ipynb`](notebooks/llama_quantization.ipynb): Quantizing Llama models for efficient deployment.
 
 
 ## Instructor
