@@ -5,6 +5,14 @@
 
 This repository contains code for the [O'Reilly Live Online Training for Optimizing LLMs with Fine-Tuning and Prompt Engineering](https://www.oreilly.com/live-events/optimizing-llms-with-fine-tuning-and-prompt-engineering/0642572011351)
 
+<p align="center">
+  <a href="https://www.amazon.com/Quick-Start-Guide-Language-Models-dp-0135346568/dp/0135346568">Check out my book</a> for even more examples and fleshed out case studies. The code for the book is free forever on my Github
+</p>
+
+<p align="center" href="https://www.amazon.com/Quick-Start-Guide-Language-Models-dp-0135346568/dp/0135346568">
+  <img src="images/qsllm2e.jpg" href="https://www.amazon.com/Quick-Start-Guide-Language-Models-dp-0135346568/dp/0135346568" alt="Quick Start Guide to Large Language Models" width="200">
+</p>
+
 This advanced course is designed for machine learning engineers and software developers looking to elevate the performance and precision of large language models (LLMs). This course focuses on two critical aspects of LLM optimization: fine-tuning models on specific datasets to tailor their capabilities and mastering the craft of prompt engineering to generate accurate and contextually relevant outputs.
 
 Over the course of this training, you will explore the intricacies of fine-tuning LLMs like GPT, learning how to adapt pre-trained models to specific tasks and use cases. Additionally, you will delve into the nuances of prompt engineering, discovering how to design and refine prompts that effectively guide LLM behavior. By the end of the course, you will have a deep understanding of how to maximize the potential of LLMs, making them more responsive and valuable in a variety of applications. This course is essential for anyone aiming to push the boundaries of what LLMs can achieve in real-world scenarios.
@@ -34,11 +42,14 @@ Over the course of this training, you will explore the intricacies of fine-tunin
   - [`distillation_example_1.ipynb`](notebooks/distillation_example_1.ipynb): Exploring knowledge distillation techniques for transformer models.
   - [`distillation_example_2.ipynb`](notebooks/distillation_example_2.ipynb): Advanced distillation methods and applications.
   - [`llama_quantization.ipynb`](notebooks/llama_quantization.ipynb): Quantizing Llama models for efficient deployment.
+  - [`Llama.cpp`](https://colab.research.google.com/drive/1D6k-BeuF8YRTR8BGi2YYJrSOAZ6cYX8Y?usp=sharing) - Using LLMs with llama.cpp
 
 
 ## Instructor
 
-![](images/square_headshot_small.jpg)
+<div style="text-align: center;">
+  <img src="images/square_headshot_small.jpg" alt="Headshot" width="300">
+</div>
 
 **Sinan Ozdemir** is the Founder and CTO of LoopGenius where he uses State of the art AI to help people create and run their businesses. Sinan is a former lecturer of Data Science at Johns Hopkins University and the author of multiple textbooks on data science and machine learning. Additionally, he is the founder of the recently acquired Kylie.ai, an enterprise-grade conversational AI platform with RPA capabilities. He holds a master’s degree in Pure Mathematics from Johns Hopkins University and is based in San Francisco, CA.
 
