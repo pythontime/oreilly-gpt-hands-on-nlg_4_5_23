@@ -30,6 +30,9 @@ Over the course of this training, you will explore the intricacies of fine-tunin
 
 - [Fine-tuning Embeddings  with Synthetic Data](https://colab.research.google.com/drive/1FOr9hgMEcTa8UJJSuKjoHpohVb-Qz-FJ?usp=sharing) - Using GPT-4o to create synthetic queries for a corpus to increase the quality of open-source embedding models
 
+#### Working with FLAN-T5 models using Reinforcement Learning
+  - Colab Version: [![Using SAWYER](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wG8lv6drn872HNZHrT7V9kl6JIF1SXpr?usp=sharing)
+
 #### SAWYER - Training a chat model with RLF
 
   - [`SAWYER_LLAMA_SFT.ipynb`](notebooks/SAWYER_LLAMA_SFT.ipynb): Fine-tuning the Llama-3 model to create the SAWYER bot.
