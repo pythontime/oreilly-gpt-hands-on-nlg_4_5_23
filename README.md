@@ -43,6 +43,7 @@ Over the course of this training, you will explore the intricacies of fine-tunin
     - [colab version](https://colab.research.google.com/drive/1QR_Xf1GsOyChYzReg_JHxsBTrMZ0Vwz6?usp=sharing) 
   - [`SAWYER_USE_SAWYER.ipynb`](notebooks/SAWYER_USE_SAWYER.ipynb): Using the SAWYER bot.
     - [colab version](https://colab.research.google.com/drive/1xUrIbqyKoEjxNyjNI6iuYuSNMyksypEO?usp=sharing)
+  - [Adapting SAWYER to know more about ML](https://colab.research.google.com/drive/12JeS96SVLIyY06bzJs96B5PdTt1Pga06?usp=sharing)
 
 #### Distillation + Quantization
 
