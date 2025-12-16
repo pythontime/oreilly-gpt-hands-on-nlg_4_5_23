@@ -21,7 +21,7 @@ Over the course of this training, you will explore the intricacies of fine-tunin
 
 #### Comparing Fine-tuned OpenAI + BERT
 
-  - [`bert_app_review.ipynb`](notebooks/bert_app_review.ipynb): Fine-tuning a BERT model for app review classification.
+  - [`bert_app_review.ipynb`](https://colab.research.google.com/drive/1z2sMZ_A05_VGYqpHBgabvcV0V4INYhQ4#scrollTo=QQAdv6RBNees): Fine-tuning a BERT model for app review classification.
   - [`openai_app_review_fine_tuning.ipynb`](notebooks/openai_app_review_fine_tuning.ipynb): Fine-tuning OpenAI models for app review classification.
 
 #### Fine-tuning embeddings
