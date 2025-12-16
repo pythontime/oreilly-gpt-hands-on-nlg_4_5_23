@@ -33,6 +33,13 @@ Over the course of this training, you will explore the intricacies of fine-tunin
 #### Working with FLAN-T5 models using Reinforcement Learning
   - Colab Version: [![Using SAWYER](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wG8lv6drn872HNZHrT7V9kl6JIF1SXpr?usp=sharing)
 
+#### Domain Adaptation - Fine-tune Qwen on domain-specific documents
+  - Colab: [Google Colab](https://colab.research.google.com/drive/1eZzTJ5dNtbeh2RZS-kV7DD7jDHFqS4qG#scrollTo=yqxqAZ7KJ4oL)
+
+#### Matryoshka Embeddings - Train embeddings that work at multiple dimensions.
+  - Colab: [Google Colab](https://colab.research.google.com/drive/1N9ROhCmrOTnXMkpIc9SukVeSwFr5Xxkx#scrollTo=UbG2yyJxv_JW)
+
+
 #### SAWYER - Training a chat model with RLF
 
   - [`SAWYER_LLAMA_SFT.ipynb`](notebooks/SAWYER_LLAMA_SFT.ipynb): Fine-tuning the Llama-3 model to create the SAWYER bot.
@@ -59,5 +66,5 @@ Over the course of this training, you will explore the intricacies of fine-tunin
   <img src="images/square_headshot_small.jpg" alt="Headshot" width="300">
 </div>
 
-**Sinan Ozdemir** is the Founder and CTO of LoopGenius where he uses State of the art AI to help people create and run their businesses. Sinan is a former lecturer of Data Science at Johns Hopkins University and the author of multiple textbooks on data science and machine learning. Additionally, he is the founder of the recently acquired Kylie.ai, an enterprise-grade conversational AI platform with RPA capabilities. He holds a master’s degree in Pure Mathematics from Johns Hopkins University and is based in San Francisco, CA.
+**Sinan Ozdemir** is the Founder and CTO of UseCrucible.ai where he uses State of the art AI to help people create custom AI models. Sinan is a former lecturer of Data Science at Johns Hopkins University and the author of multiple textbooks on data science and machine learning. Additionally, he is the founder of the recently acquired Kylie.ai, an enterprise-grade conversational AI platform with RPA capabilities. He holds a master’s degree in Pure Mathematics from Johns Hopkins University and is based in San Francisco, CA.
 
